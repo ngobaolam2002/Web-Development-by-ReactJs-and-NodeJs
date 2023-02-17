@@ -20,6 +20,9 @@ module.exports = {
                         allowNull: false,
                         type: Sequelize.TEXT
                   },
+                  files: {
+                        type: Sequelize.TEXT
+                  },
                   createAt: {
                         allowNull: false,
                         type: Sequelize.DATE

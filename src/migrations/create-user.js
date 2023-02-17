@@ -32,11 +32,15 @@ module.exports = {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      keyRole: {
+      roleId: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      typeRole: {
+      positionId: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      image: {
         allowNull: false,
         type: Sequelize.STRING
       },

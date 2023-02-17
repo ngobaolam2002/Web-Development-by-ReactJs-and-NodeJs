@@ -19,8 +19,8 @@ module.exports = {
       address: 'Da Nang City',
       phonenumber: '0981866071',
       gender: 1,
-      typeRole: 'ROLE',
-      keyRole: 'R1',
+      roleId: 'ROLER1',
+      positionId: 'Doctor',
       createdAt: new Date(),
       updatedAt: new Date()
     }]);
